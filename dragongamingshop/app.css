@@ -1,0 +1,95 @@
+        header.navbar-container {
+            width: 100%;
+            max-width: 1200px;
+            padding-block: 1rem;
+            margin-inline: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 9999;
+            background-color: red;
+            padding-left: 200px;
+            padding-right: 150px;
+        }
+        
+        header.navbar-container .logo img {
+            width: 250px;
+        }
+        
+        header.navbar-container .nav-list ul {
+            padding-left: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem 1rem;
+        }
+        
+        header.navbar-container .nav-list li {
+            list-style-type: none;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+        
+        header.navbar-container .nav-list li a {
+            padding: 0.5rem 1.5rem;
+            border-radius: 999px;
+            text-decoration: none;
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: black;
+            transition: all 0.2s ease-in-out;
+        }
+        
+        header.navbar-container .nav-list li:hover a {
+            background-color: #425c77;
+            color: white;
+            font-weight: bold;
+        }
+        
+        footer {
+            padding: 20px;
+            color: white;
+            background-color: gray;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .featured-image {
+            width: 600px;
+            height: 300px;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .profile img {
+            width: 200px;
+        }
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: aquamarine;
+        }
+        
+        body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h2,
+        h3 {
+            color: #00a2c6;
+        }
+        
+        figcaption {
+            text-align: center;
+        }
+        
+        aside img {
+            padding-top: 10px;
+            padding-right: 300px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            margin-left: 550px;
+        }
